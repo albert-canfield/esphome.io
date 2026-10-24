@@ -56,7 +56,7 @@ on_...:
 > backup battery runs flat or is swapped. The chip also sets it at power-up, so a module whose time was never set has
 > it too. While the flag is set the stored time can't be trusted, so the component logs a warning and doesn't sync the
 > system clock from the RTC. Writing the time with `pcf8563.write_time` clears the flag. With the setup in the
-> [Full Configuration Example](#pcf8563-config_example), that happens on the first successful network sync.
+> [Full Configuration Example](#full-configuration-example), that happens on the first successful network sync.
 
 <span id="pcf8563-config_example"></span>
 
